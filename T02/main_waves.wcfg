@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/HDL/Cronometro_Decrescente_Nexys/cron_dec_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="cron_dec_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="rom" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/cron_dec_tb/ucf_clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ucf_clock</obj_property>
+      <obj_property name="ObjectShortName">ucf_clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cron_dec_tb/ucf_reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ucf_reset</obj_property>
+      <obj_property name="ObjectShortName">ucf_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cron_dec_tb/ucf_carga" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ucf_carga</obj_property>
+      <obj_property name="ObjectShortName">ucf_carga</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cron_dec_tb/ucf_conta" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ucf_conta</obj_property>
+      <obj_property name="ObjectShortName">ucf_conta</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cron_dec_tb/ucf_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ucf_a[6:0]</obj_property>
+      <obj_property name="ObjectShortName">ucf_a[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cron_dec_tb/ucf_stop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ucf_stop</obj_property>
+      <obj_property name="ObjectShortName">ucf_stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cron_dec_tb/uut/reader/nst" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">nst</obj_property>
+      <obj_property name="ObjectShortName">nst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cron_dec_tb/uut/reader/pst" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">pst</obj_property>
+      <obj_property name="ObjectShortName">pst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cron_dec_tb/uut/reader/clock_seg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock_seg</obj_property>
+      <obj_property name="ObjectShortName">clock_seg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cron_dec_tb/uut/reader/minutos" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">minutos</obj_property>
+      <obj_property name="ObjectShortName">minutos</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cron_dec_tb/uut/reader/segundos" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">segundos</obj_property>
+      <obj_property name="ObjectShortName">segundos</obj_property>
+   </wvobject>
+</wave_config>
